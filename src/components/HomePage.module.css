@@ -1,0 +1,55 @@
+.page {
+	background-color: var(--slate-300);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+	user-select: none;
+}
+
+.cardQr {
+	background-color: var(--white);
+	padding: 16px;
+	width: 320px;
+	height: 499px;
+	border-radius: 20px;
+	border: 1px solid var(--black);
+}
+
+.imageQRcode {
+	margin-bottom: 16px;
+	width: 288px;
+	height: 288px;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	width: 288px;
+	height: 131px;
+	gap: 16px;
+}
+
+.title {
+	font-family: "Outfit", sans-serif;
+	font-size: 22px;
+	margin: 0;
+	font-weight: bolder;
+	width: 256px;
+	height: 52px;
+
+	color: var(--slate-900);
+}
+
+.text {
+	font-family: "Outfit", sans-serif;
+	margin: 0;
+	font-size: 15px;
+	width: 256px;
+	height: 63px;
+
+	color: var(--slate-500);
+}
